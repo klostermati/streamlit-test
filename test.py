@@ -9,4 +9,6 @@ def load_data():
     
 chart_data = load_data()
 
+st.title("Hello, I'm testing Streamlit")
+
 st.line_chart(chart_data)
